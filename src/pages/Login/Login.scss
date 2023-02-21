@@ -1,0 +1,106 @@
+$border-color: #bcbcbc;
+$back-color: #fafafa;
+
+body {
+  background-color: $back-color;
+
+  .loginContainer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: min-content;
+    background-color: #fff;
+    border: 1px solid $border-color;
+
+    h1 {
+      margin: 6rem 6rem;
+      font-size: 5rem;
+    }
+
+    form {
+      input {
+        display: block;
+        width: 80%;
+        height: 4rem;
+        margin: 0 auto 1rem;
+        padding-left: 0.8rem;
+        color: $border-color;
+        background-color: $back-color;
+        border: 1px solid $border-color;
+        border-radius: 3px;
+        line-height: 4rem;
+      }
+
+      button {
+        display: block;
+        width: 80%;
+        margin: 0 auto 1rem;
+        color: #fff;
+        background-color: #67b6fa;
+        border: none;
+        border-radius: 12px;
+        font-size: 1.6rem;
+        line-height: 4rem;
+
+        a {
+          color: #fff;
+        }
+      }
+    }
+
+    .pwSearch {
+      text-align: center;
+      margin: 7rem 0 3rem;
+
+      a {
+        color: #3b628a;
+      }
+    }
+  }
+}
+
+// h1 {
+//   margin: 6rem 10rem;
+//   font-size: 5rem;
+// }
+
+// .loginWrap input {
+//   width: 80%;
+//   height: 4rem;
+//   margin: 0 auto 1rem;
+//   padding: 0rem 0.8rem;
+//   color: #bcbcbc;
+//   background-color: #fafafa;
+//   border: 1px solid #bcbcbc;
+//   border-radius: 3px;
+//   line-height: 4rem;
+// }
+
+// .logBtn {
+//   width: 80%;
+//   height: 4rem;
+//   margin-top: 0.8rem;
+//   color: #fff;
+//   background-color: #67b6fa;
+//   border: none;
+//   border-radius: 12px;
+//   font-size: 1.6rem;
+//   line-height: 4rem;
+// }
+
+// .loginBtnAbled {
+//   background-color: #39f;
+//   cursor: pointer;
+// }
+
+// .pwSearch {
+//   position: absolute;
+//   bottom: 2.5rem;
+//   width: 100%;
+//   font-size: 1.3rem;
+// }
+
+// .pwSearch a {
+//   color: #3b628a;
+// }

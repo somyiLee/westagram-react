@@ -1,37 +1,25 @@
 import React from "react";
-import "./Login.css";
+import { Link } from "react-router-dom";
+import "../../style/reset.css";
 import "../../style/common.css";
+import "./Login.scss";
 
-const loginWrap = () => {
+const Login = () => {
   return (
-    <div className="loginWrap">
+    <div className="loginContainer">
       <h1>Westagram</h1>
       <form>
-        <input
-          type="text"
-          className="loginInput"
-          placeholder="전화번호, 사용자 이름 또는 이메일"
-        />
-        <input type="password" className="loginInput" placeholder="비밀번호" />
-        <button className="logBtn" disabled>
-          로그인
+        <input type="text" placeholder="전화번호, 사용자 이름 또는 이메일" />
+        <input type="password" placeholder="비밀번호" />
+        <button type="button" disabled>
+          <Link to="/main">로그인</Link>
         </button>
       </form>
       <div className="pwSearch">
-        <a href="#none">비밀번호를 잊으셨나요?</a>
+        <Link to="/">비밀번호를 잊으셨나요?</Link>
       </div>
     </div>
   );
 };
 
-// const loginInput = document.getElementsByTagName("input")[0];
-// const passwordInput = document.getElementsByTagName("input")[1];
-// const loginBtn = document.getElementsByClassName("logBtn")[0];
-
-// const validate = () => {
-//   this.value.indexOf("@") > -1 && passwordInput.value.length >= 5
-//     ? loginBtn.classList.add("loginBtnAbled")
-//     : loginBtn.classList.remove("loginBtnAbled");
-// };
-
-export default loginWrap;
+export default Login;
