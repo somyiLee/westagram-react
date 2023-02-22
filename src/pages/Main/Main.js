@@ -1,8 +1,6 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "../../style/reset.css";
-import "../../style/common.css";
-import "./Main.scss";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './Main.scss';
 
 const Main = () => {
   return (
@@ -15,7 +13,7 @@ const Main = () => {
           <h1>Westagram</h1>
         </div>
         <div className="searchWrap">
-          <i className="fa-sharp fa-solid fa-magnifying-glass"></i>
+          <i className="fa-sharp fa-solid fa-magnifying-glass" />
           <input type="text" placeholder="검색" />
         </div>
         <div className="menuWrap">
@@ -37,7 +35,7 @@ const Main = () => {
         <div className="contentsContainer">
           <section className="feeds">
             <header>
-              <div></div>
+              <div />
               <p>wecode_bootcamp</p>
             </header>
             <article>
@@ -45,19 +43,19 @@ const Main = () => {
                 <img src="/img/userimg.jpeg" alt="사용자 게시 이미지" />
               </div>
               <div className="feedBottom">
-                <i className="fa-sharp fa-regular fa-heart"></i>
-                <i className="fa-sharp fa-regular fa-comment"></i>
-                <i className="fa-sharp fa-regular fa-share-from-square"></i>
-                <i className="fa-sharp fa-regular fa-bookmark"></i>
+                <i className="fa-sharp fa-regular fa-heart" />
+                <i className="fa-sharp fa-regular fa-comment" />
+                <i className="fa-sharp fa-regular fa-share-from-square" />
+                <i className="fa-sharp fa-regular fa-bookmark" />
                 <div>
-                  <div></div>
+                  <div />
                   <span>seungyoun_iain</span>님 &nbsp;
                   <span>외 4명</span>이 좋아합니다
                 </div>
                 <div>
                   <span>wecode_bootcamp</span> &nbsp;어쩌구
                   저쩌구저쩌주저ㅓ어어ㅓㄴ
-                  <ul className="blind"></ul>
+                  <ul className="blind" />
                 </div>
               </div>
               <form className="commentWrap">
@@ -68,7 +66,7 @@ const Main = () => {
           </section>
           <div className="main_right">
             <header>
-              <div className="ProfileImg"></div>
+              <div className="ProfileImg" />
               <div>
                 <h2>wecode_bootcamp</h2>
                 <p>WeCode | 위코드</p>
@@ -81,19 +79,19 @@ const Main = () => {
               </div>
               <article>
                 <div className="grdientBorder">
-                  <div></div>
+                  <div />
                 </div>
                 <p>somyi_s2_91016</p>
               </article>
               <article>
                 <div className="grdientBorder">
-                  <div></div>
+                  <div />
                 </div>
                 <p>somyi_s2_91016</p>
               </article>
               <article>
                 <div className="grdientBorder">
-                  <div></div>
+                  <div />
                 </div>
                 <p>somyi_s2_91016</p>
               </article>
@@ -104,7 +102,7 @@ const Main = () => {
                 <span>모두보기</span>
               </div>
               <article className="newRocommond">
-                <div className="userPofileImg"></div>
+                <div className="userPofileImg" />
                 <div>
                   <b>guess_who</b>
                   <p>mettugi_world님 외 3명이 팔로우하고 있습니다.</p>
@@ -112,7 +110,7 @@ const Main = () => {
                 <button type="button">팔로우</button>
               </article>
               <article className="newRocommond">
-                <div className="userPofileImg"></div>
+                <div className="userPofileImg" />
                 <div>
                   <b>guess_who</b>
                   <p>mettugi_world님 외 3명이 팔로우하고 있습니다.</p>
@@ -120,7 +118,7 @@ const Main = () => {
                 <button type="button">팔로우</button>
               </article>
               <article className="newRocommond">
-                <div className="userPofileImg"></div>
+                <div className="userPofileImg" />
                 <div>
                   <b>guess_who</b>
                   <p>mettugi_world님 외 3명이 팔로우하고 있습니다.</p>

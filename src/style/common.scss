@@ -4,11 +4,12 @@
 
 html {
   font-size: 10px;
-}
-body {
-  margin: 0;
-  font-size: 1.5rem;
-  line-height: 1.5;
+
+  body {
+    margin: 0;
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
 }
 
 i {
@@ -20,18 +21,17 @@ a {
 }
 
 /* 여기서부터 form style form, */
-
 input {
   border: none;
-}
 
-input:focus {
-  outline: none;
+  &:focus {
+    outline: none;
+  }
 }
 
 /* 여기까지 form style 여기서부터 h1 ~ h6 */
 h1 {
-  font-family: "Lobster", cursive;
+  font-family: 'Lobster', cursive;
 }
 
 h2,

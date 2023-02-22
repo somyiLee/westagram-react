@@ -1,8 +1,6 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "../../style/reset.css";
-import "../../style/common.css";
-import "./Login.scss";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './Login.scss';
 
 const Login = () => {
   return (
