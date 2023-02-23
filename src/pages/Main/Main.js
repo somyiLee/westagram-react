@@ -4,7 +4,7 @@ import './Main.scss';
 
 const Main = () => {
   return (
-    <>
+    <div className="main">
       <nav className="navContainer">
         <div className="logoWrap">
           <Link to="/">
@@ -146,7 +146,7 @@ const Main = () => {
           </div>
         </div>
       </main>
-    </>
+    </div>
   );
 };
 
